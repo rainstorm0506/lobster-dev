@@ -1,0 +1,132 @@
+[ 2015-04-18T09:47:58+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-04-18T10:31:06+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-04-18T11:40:23+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530adbfebfa2_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:40:23+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530acc75fc8d_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:40:23+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530887c796ea_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:40:37+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530acc75fc8d_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:40:37+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530adbfebfa2_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:44:32+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530adbfebfa2_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:44:32+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530acc75fc8d_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:44:33+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530adbfebfa2_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:44:33+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530acc75fc8d_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:54:29+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530adbfebfa2_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:54:29+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530acc75fc8d_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:54:39+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530acc75fc8d_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:54:39+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530adbfebfa2_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:55:14+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530acc75fc8d_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:55:14+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530adbfebfa2_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:55:34+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530adbfebfa2_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:55:34+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530acc75fc8d_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:55:42+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530adbfebfa2_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:56:09+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530adbfebfa2_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-18T11:56:10+08:00 ] 127.0.0.1 /Uploads/goods/2015-04-17/5530adbfebfa2_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+ERR: 无法加载模块:Uploads
+

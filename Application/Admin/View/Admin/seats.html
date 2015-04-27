@@ -1,0 +1,187 @@
+<extend name="Common/base"/>
+<block name='css'>
+    <link rel="stylesheet" type="text/css" href="__UPLOADIFY__/uploadify.css">
+</block>
+<block name="nav">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">        
+              <div class="container">
+                  <!----导航栏开始------->
+                  <ul class="nav nav-pills">
+                      <li role="presentation"><a href="{:U('Admin/index')}"><h4>用户管理</h4></a></li>
+                      <li role="presentation"><a href="{:U('Admin/lists')}"><h4>产品列表</h4></a></li>
+                      <li role="presentation"><a href="{:U('Admin/orders')}"><h4>订单列表</h4></a></li>
+                      <li role="presentation" class="active"><a href="{:U('Admin/seats')}"><h4>座位分布表</h4></a></li>
+                      <li role="presentation"><a href="{:U('Admin/reservation')}"><h4>订座列表</h4></a></li>
+                      <li role="presentation"><a href="{:U('Admin/employees')}"><h4>员工列表</h4></a></li>
+                      <li role="presentation">
+                          <button type="button" class="btn btn-warning navbar-btn" style="margin-left: 320px">
+                              <a href="{:U('Admin/logout')}">安全退出</a>
+                          </button>
+                      </li>
+                  </ul>  
+                  <!----导航栏结束----->
+              </div> 
+        </div>
+    </nav>
+</block>
+<!----餐厅座位分布----->
+<block name='content'>
+    <div class='container'>
+            <p>
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="margin-left: 950px">
+                    添加座位
+                </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">添加座位</h4>
+                  </div>
+                  <div class="modal-body">
+                    <!---添加上传产品的表单--->
+                    <form action="{:U('Admin/Seats/addSeats')}" method="post" enctype="multipart/form-data">
+                        
+                          <div class="form-group">
+                            <label>座位号:</label>
+                            <input type="text" name="seat_number" class="form-control" placeholder="请输入座位号">
+                          </div>
+
+                          <div class="form-group">
+                            <label>可就座人数:</label>
+                            <input type="text" name="person_number" class="form-control" placeholder="请输入就座人数">
+                          </div>
+
+                            <button type="submit" class="btn btn-success" id="confirm">确认提交</button>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           <input type="reset" value="重置" class="btn btn-info">
+                        </form>
+                    <!---添加用户的form表单--->
+                  </div>
+                </div>
+              </div>
+            </div>        
+        <!---座位列表------>
+        <table class="table table-striped">
+            <tr>
+                <th>座位编号</th>
+                <th>多人座</th>
+                <th>是否预定</th>
+                <th>操作</th>
+            </tr>
+            <volist name='rows' id="row" key="k">
+            <tr <?php if($k%2!==0) echo "class='info'";echo "class='success'";?>>
+                <td>{$row.seat_number}号座</td>
+                <td>{$row.person_number}人座</td>
+                <td>
+                      <if condition="$row['status'] eq 1">
+                          <button class="btn btn-success" disabled>已预订</button>
+                          <button class="btn btn-danger" onclick="cancle(this)" value="{$row.seat_number}">取消预订</button>
+                          <else /> 
+                          <button class="btn btn-danger">未预订</button>
+                      </if>                    
+                </td>
+                <td>
+                    <span class="flag">
+                        <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal2" value="{$row.id}" onclick="editSeats(this)">编辑</a>
+                    </span>
+                    <span>
+                        <a href="javascript:void(0)" value="{$row.id}" onclick="delSeats(this)">删除</a>
+                    </span>
+                </td>                
+            </tr>
+            </volist>
+        </table>
+        <!--分页工具条---->
+        <div id="turn-page" class="page">
+            {$pageHTML}
+        </div>
+            <!-- 编辑模态框 -->
+        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">添加产品</h4>
+              </div>
+                <div class="modal-body" id="rows">
+                  <!---添加上传产品的表单--->
+                <!---添加用户的form表单--->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 编辑模态框 -->
+        
+    </div>
+    <script type="text/html" id="myTemplate">
+                <form action="{:U('Admin/Seats/editSeats')}" method="post" enctype="multipart/form-data">
+                      <!----用于隐藏当前产品的ID----->
+                      <input type="hidden" name="id" value="${id}">
+                      
+                      <div class="form-group">
+                        <label>座位编号:</label>
+                        <input type="text" name="seat_number" class="form-control" value="${seat_number}">
+                      </div>
+
+                      <div class="form-group">
+                        <label>就座人数:</label>
+                        <input type="text" name="person_number" class="form-control" value="${person_number}">
+                      </div>
+                      
+                        <button type="submit" class="btn btn-success" id="confirm">确认提交</button>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       <input type="reset" value="重置" class="btn btn-info">
+                    </form>
+     </script>    
+</block>
+<!----JS代码部分------->
+<block name="js">
+    <script>	
+        //点击“取消订座”按钮时，要触发的事件
+        function cancle(demo){
+            var seat_number=$(demo).attr("value");
+            $.post(
+                    "{:U('Seats/changeStatus')}",
+                    {seat_number:seat_number},
+                    function(data){
+                        //根据回显里面的字段recommended对单选框进行选择
+                        console.debug(data);
+                        alert(data);
+                        location.href="{:U('Admin/seats')}";
+                    }
+            );            
+        }
+        //点击编辑按钮需要触发的事件 
+        function editSeats(demo){
+            $("#rows").html("");
+            var id=$(demo).attr("value");
+            $.post(
+                    "{:U('Admin/Seats/findSeats')}",
+                    {id:id},
+                    function(data){
+                        //根据回显里面的字段recommended对单选框进行选择
+                        $('#myTemplate').tmpl(data).appendTo('#rows');
+                    }
+            );            
+        }
+        //点击删除按钮的时候触发的函数
+        function delSeats(item){
+            var id=$(item).attr("value");
+            var confirms=confirm("你确定要删除吗？");
+            if(confirms){
+                $.post(
+                        "{:U('Admin/Seats/delSeats')}",
+                        {id:id},
+                        function(data){
+                            alert(data);
+                            location.href="{:U('Admin/seats')}";
+                        }
+                );                
+            }
+        }
+    </script>
+</block>

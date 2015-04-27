@@ -1,0 +1,9 @@
+[ 2015-04-16T11:30:34+08:00 ] 127.0.0.1 /index.php?m=Admindgfssd&c=Admin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+ERR: 无法加载模块:Admindgfssd
+NOTIC: [8] Array to string conversion F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 46 行.
+NOTIC: [8] Use of undefined constant __APP__ - assumed '__APP__' F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Common\functions.php 第 974 行.
+
