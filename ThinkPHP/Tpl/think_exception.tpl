@@ -48,7 +48,7 @@ body{ background: #290C0C; font-family: '微软雅黑'; color: #fff; font-size: 
 <div>
     <a id="href" id="btn-now" href="<?php echo($jumpUrl); ?>">立即跳转</a> 
     <button id="btn-stop" type="button" onclick="stop()">停止跳转</button> 
-    <a id="href" id="btn-now" href="<?php echo(U('Login/Index/index')); ?>">重新登录</a> 
+    <a id="href" id="btn-now" href="<?php echo(U('Home/Index/index')); ?>">返回首页</a> 
 </div>
 </div>
 <script type="text/javascript">
@@ -57,7 +57,7 @@ body{ background: #290C0C; font-family: '微软雅黑'; color: #fff; font-size: 
  var interval = setInterval(function(){
      	var time = --wait.innerHTML;
      	if(time <= 0) {
-     		location.href = "<?php echo(U('Login/Index/index')); ?>";
+     		location.href = "<?php echo(U('Home/Index/index')); ?>";
      		clearInterval(interval);
      	};
      }, 1000);

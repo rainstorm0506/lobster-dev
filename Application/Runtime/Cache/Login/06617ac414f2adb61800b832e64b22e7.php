@@ -1,0 +1,52 @@
+<?php if (!defined('THINK_PATH')) exit();?><html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/Public/bootstrap/css/bootstrap.min.css" type="text/css">
+        <!--加载自定义css样式-->
+        <link rel="stylesheet" href="/Public/bootstrap/css/self.css" type="text/css">
+        <script type="text/javascript" src="/Public/bootstrap/js/jquery.js"></script>
+        <script type="text/javascript" src="/Public/bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div id="fullbg"></div> 
+        <div id="dialog"> 
+                <form action="<?php echo U('Login/Index/index');?>" method="post">
+                    <p class="success"><h1>管理用户登录</h1></p>
+                
+                    <div class="form-group">
+                       <strong>用户名：</strong>
+                       <input type="text" class="form-control" id="username" placeholder="请输入用户名" name="username">
+                    </div>  
+                
+                    <div class="form-group">
+                       <strong>密码：</strong>
+                       <input type="password" class="form-control" id="password" placeholder="请输入用户密码" name="password">
+                    </div> 
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="登录" class="btn btn-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="重置" class="btn btn-danger">
+                </form>
+        </div>    
+        <script type="text/javascript"> 
+            $(function(){
+                var bh = $("body").height(); 
+                var bw = $("body").width(); 
+                $("#fullbg").css({ 
+                height:bh, 
+                width:bw, 
+                display:"block" 
+                }); 
+                $("#dialog").show();
+                //检查输入框是否为空
+                $(".btn-primary").click(function(){
+                    var username=$("#username").val();
+                    var password=$("#password").val();
+                    if(username==""||password==""){
+                        alert('请检查登录信息是否完整!');
+                        return false;
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
