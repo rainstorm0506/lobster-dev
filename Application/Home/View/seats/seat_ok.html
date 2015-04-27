@@ -57,7 +57,7 @@ DD_belatedPNG.fix('div , a , span');
                 </dl>
                 <dl>
                     <dt>&nbsp;</dt>
-                    <dt><input type="submit" id="button" class="fl t2" value="下一步"></dt>
+                    <dt><input type="submit" id="button" class="fl t2" value="下一步" onclick="return searchItem()"></dt>
                 </dl>
             </form>
   </div>
@@ -77,14 +77,37 @@ DD_belatedPNG.fix('div , a , span');
 </div>
 
 <script>
-    //根据“座位编号”和“订餐时间”去比对该座位是否“已经订座”
-    $("#button").click(function(){
+//根据“座位编号”和“订餐时间”去比对该座位是否“已经订座”
+function searchItem(){
        var seat_number=$("#seat_number").val();
        var meals_date=$("#date_1").val();
        var meals_time=$("#shijian").val();
-       console.debug(seat_number+"=="+meals_date+"=="+meals_time);
-       return false;
-    });
+       var flag="";
+        $.post(
+                "{:U('Home/Seats/searshItem')}",
+                {seats_id:seat_number,meals_date:meals_date,meals_time:meals_time},
+                function(data){
+                    if(data==0){    //没有记录，就可以提交表单
+                        alert("该时间段可以订座");
+                        $.ajax({
+                            type: 'post',
+                            url: '{:U("chooseSeats")}',
+                            data: $("#form1").serialize(),
+                            success: function(data) {
+                                if(data!==0){   //已经保存成功
+                                    console.debug(data);
+                                    location.href="{:U('finishSeats')}"+"?reservation_id="+data;
+                                }
+                            }
+                        });                        
+                    }else{
+                        alert("该时间段的该座位已经被预订");
+                        history.back();
+                    }
+                }
+        ); 
+    return false;
+}
 $(document).ready(function(){
 	$.formValidator.initConfig({alertMessage:false});
 	$("#ymane").formValidator({onshow:"请输入真实姓名,由汉字组成",onfocus:"请输入真实姓名,由汉字组成",oncorrect:"填写正确"}).InputValidator({min:4,onerror:"请输入一个由汉字组成的真实姓名"}).RegexValidator({regexp:"^[\u4e00-\u9fa5]{0,}$",onerror:"真实姓名由汉字组成"});

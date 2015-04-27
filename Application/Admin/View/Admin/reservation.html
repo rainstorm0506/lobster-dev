@@ -35,7 +35,7 @@
                 <th>客户电话</th>
                 <th>用餐人数</th>
                 <th>用餐时间</th>
-                <th>订座时间</th>
+                <th>提交订座时间</th>
             </tr>
             <volist name="rows" id="row" key="k">
             <tr <?php if($k%2!==0) echo "class='info'";echo "class='success'";?>>
@@ -43,7 +43,7 @@
                 <td>{$row.custom_name}</td>
                 <td>{$row.phone}</td>
                 <td>{$row.meals_number}</td>
-                <td>{$row.meals_time}</td>
+                <td>{$row.meals_date} {$row.meals_time}</td>
                 <td>{$row.orders_time}</td>
             </tr>
             </volist>
