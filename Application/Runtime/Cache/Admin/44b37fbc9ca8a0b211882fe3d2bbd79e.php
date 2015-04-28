@@ -64,6 +64,7 @@
                   <th>状态</th>
                   <th>送货地址</th>
                   <th>送货人</th>
+                  <th>操作</th>
               </tr>
             </thead>
             <!--表的主体-->
@@ -97,7 +98,7 @@
                     </td>
                     <!----送货状态--->
                     <td>
-                        <textarea class="form-control" rows="1"><?php echo ($row["address"]); ?></textarea>
+                        <textarea class="form-control" rows="1" cols="10"><?php echo ($row["address"]); ?></textarea>
                     </td>
                     <!----送货人--->
                     <td>
@@ -117,15 +118,17 @@
                                 </select>
                             <!--其他任何情形，都默认是空的 -->
                             <?php else: ?>
-                                <span>
                                 <select class="form-control">
                                     <option>---</option>
-                                </select>
-                                <!--再该情况下，可以删除“订单记录”---->
-                                <i class="glyphicon glyphicon-trash" value="<?php echo ($row["sn"]); ?>" onclick="delOrders(this)"></i>
-                                </span><?php endif; endif; ?> 
+                                </select><?php endif; endif; ?> 
                     </td>
                     <!----送货人--->
+                    <!---删除订单--->
+                    <td>
+                        <button class="btn btn-danger">
+                            <span class="glyphicon glyphicon-trash" value="<?php echo ($row["sn"]); ?>" onclick="delOrders(this)" aria-hidden="true"></span>
+                        </button>
+                    </td>
                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
             </tbody>
             </table>

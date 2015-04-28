@@ -51,6 +51,7 @@
                   <th>状态</th>
                   <th>送货地址</th>
                   <th>送货人</th>
+                  <th>操作</th>
               </tr>
             </thead>
             <!--表的主体-->
@@ -89,7 +90,7 @@
                     </td>
                     <!----送货状态--->
                     <td>
-                        <textarea class="form-control" rows="1">{$row.address}</textarea>
+                        <textarea class="form-control" rows="1" cols="10">{$row.address}</textarea>
                     </td>
                     <!----送货人--->
                     <td>
@@ -114,12 +115,16 @@
                                 <select class="form-control">
                                     <option>---</option>
                                 </select>
-                                <!--再该情况下，可以删除“订单记录”---->
-                                <i class="glyphicon glyphicon-trash" value="{$row.sn}" onclick="delOrders(this)"></i>
                             </if>
                         </if> 
                     </td>
                     <!----送货人--->
+                    <!---删除订单--->
+                    <td>
+                        <button class="btn btn-danger">
+                            <span class="glyphicon glyphicon-trash" value="{$row.sn}" onclick="delOrders(this)" aria-hidden="true"></span>
+                        </button>
+                    </td>
                 </tr>
               </volist>
             </tbody>
