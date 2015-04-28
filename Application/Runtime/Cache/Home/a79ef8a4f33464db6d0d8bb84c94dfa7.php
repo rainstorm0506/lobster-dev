@@ -26,17 +26,22 @@ DD_belatedPNG.fix('div , a , span');
     </menu>
 </div></div>
 <div class="main">
-    <div class="con fl con2" style="margin-top:30px;">
-          	<h1>确认您的联系方式和地址：</h1>
-    	    <div class="red f14">
-                <p>联系方式：<?php echo ($row["phone_number"]); ?></p>
-                <p>联系地址：<?php echo ($row["address"]); ?></p> 
-            </div>
-            <div class="an f14">
-            	<a class="" href="<?php echo U('dinnerAdd',array('orders_id'=>$orders_id));?>">上一步</a>
-                <a class="" href="<?php echo U('dinnerFinish',array('orders_id'=>$orders_id));?>">提交订单</a>
-            </div>
-
+    <div class="con fl con1" style="margin-top:30px;">
+    	<h1>查询结果</h1>
+	<p class="red">订单号：<?php echo ($row["sn"]); ?></p>
+        <p><?php echo ($row["orders_time"]); ?> 您的订单已经提交</p>
+        <?php if($row['checked'] == 1): ?><p><?php echo ($row["checked_time"]); ?> 您的订单已经审核，正在准备配送</p>
+            <!----审核成功之后，开始发货------->
+            <?php if($row['status'] == 0): ?><p><?php echo ($row["checked_time"]); ?> 您的订正在配送，配送员：<?php echo ($row["deliver"]); ?> <?php echo ($row["emp_phone"]); ?></p>
+            <?php elseif($row['status'] == 1): ?>
+                <p><?php echo ($row["deliver"]); ?> 于<?php echo ($row["finish_time"]); ?>已完成送货</p>
+            <?php else: ?>
+                <p>正在处理</p><?php endif; ?> 
+        <?php elseif($row['checked'] == 0): ?>
+            <p>你的订单正在审核</p>
+        <?php else: ?> 你的订单未通过审核<?php endif; ?>            
+            
+        
   </div>
 </div>
 <div class="footer">
@@ -56,7 +61,7 @@ DD_belatedPNG.fix('div , a , span');
 <script>
 $(document).ready(function(){
 	$.formValidator.initConfig({alertMessage:false});
-	$("#add").formValidator({onshow:"请输入详细送餐地址",onfocus:"请输入详细送餐地址",oncorrect:"填写正确"}).InputValidator({min:11,max:11,onerror:"请输入详细送餐地址"}).RegexValidator({regexp:"^.*$",onerror:"请输入详细送餐地址"});
+	$("#tell").formValidator({onshow:"由11位数字组成",onfocus:"由11位数字组成",oncorrect:"填写正确"}).InputValidator({min:11,max:11,onerror:"由11位数字组成"}).RegexValidator({regexp:"^[0-9]*$",onerror:"由11位数字组成"});
 
 });	
 

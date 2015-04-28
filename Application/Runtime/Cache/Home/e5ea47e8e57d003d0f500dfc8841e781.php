@@ -26,16 +26,15 @@ DD_belatedPNG.fix('div , a , span');
     </menu>
 </div></div>
 <div class="main">
-    <div class="con fl con2" style="margin-top:30px;">
-          	<h1>确认您的联系方式和地址：</h1>
-    	    <div class="red f14">
-                <p>联系方式：<?php echo ($row["phone_number"]); ?></p>
-                <p>联系地址：<?php echo ($row["address"]); ?></p> 
+    <div class="con fl" style="margin-top:30px;">
+        <form id="form1" name="form1" class="fl f_1" method="post" action="<?php echo U('Orders/searchOrders');?>" onsubmit="return jQuery.formValidator.PageIsValid('1')" >
+            <h1>查询订单</h1>
+            <div>
+                <input name="phone_number" id="tell" type="text" class="t1 fl" value="请输入您的手机号"  onclick="this.value='';focus()">
+                <span id="tellTip"></span>
             </div>
-            <div class="an f14">
-            	<a class="" href="<?php echo U('dinnerAdd',array('orders_id'=>$orders_id));?>">上一步</a>
-                <a class="" href="<?php echo U('dinnerFinish',array('orders_id'=>$orders_id));?>">提交订单</a>
-            </div>
+            <div><input type="submit" id="button" class="fl t2" value="下一步"></div>
+        </form>
 
   </div>
 </div>
@@ -56,7 +55,7 @@ DD_belatedPNG.fix('div , a , span');
 <script>
 $(document).ready(function(){
 	$.formValidator.initConfig({alertMessage:false});
-	$("#add").formValidator({onshow:"请输入详细送餐地址",onfocus:"请输入详细送餐地址",oncorrect:"填写正确"}).InputValidator({min:11,max:11,onerror:"请输入详细送餐地址"}).RegexValidator({regexp:"^.*$",onerror:"请输入详细送餐地址"});
+	$("#tell").formValidator({onshow:"由多位数字组成",onfocus:"由多位数字组成",oncorrect:"填写正确"}).InputValidator({min:11,max:11,onerror:"由11位数字组成"}).RegexValidator({regexp:"^[0-9]*$",onerror:"由11位数字组成"});
 
 });	
 

@@ -1,15 +1,15 @@
-<!doctype html>
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>阿丽小龙虾</title>
 <meta name="description" content="阿丽小龙虾,龙虾,阿丽,小龙虾" />
 <meta name="keywords" content="阿丽小龙虾" />
-<link type="text/css" href="__CSS__/base.css" rel="stylesheet" />
-<script type="text/javascript" src="__JS__/jquery.min.js"></script>
-<script type="text/javascript" src="__JS__/formValidator_min.js"></script>
+<link type="text/css" href="/Public/bootstrap/css/base.css" rel="stylesheet" />
+<script type="text/javascript" src="/Public/bootstrap/js/jquery.min.js"></script>
+<script type="text/javascript" src="/Public/bootstrap/js/formValidator_min.js"></script>
 <!--[if lte IE 6]>
-<script src="__JS__/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+<script src="/Public/bootstrap/js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
 <script type="text/javascript">
 DD_belatedPNG.fix('div , a , span');
 </script>
@@ -19,22 +19,23 @@ DD_belatedPNG.fix('div , a , span');
 <div class="header"></div>
 <div class="wbanner"><div class="banner">
 	<menu class="f18">
-		<a href="{:U('Index/index')}">首页</a>
-		<a href="{:U('Seats/index')}">在线选座</a>
-		<a href="{:U('Orders/query')}">查询订单</a>
-		<a href="{:U('Help/index')}">帮助中心</a>
+		<a href="<?php echo U('Index/index');?>">首页</a>
+		<a href="<?php echo U('Seats/index');?>">在线选座</a>
+		<a href="<?php echo U('Orders/query');?>">查询订单</a>
+		<a href="<?php echo U('Help/index');?>">帮助中心</a>
     </menu>
 </div></div>
 <div class="main">
     <div class="con fl con2" style="margin-top:30px;">
-          	<h1>确认您的联系方式和地址：</h1>
+    	<h1>您的订单号：<?php echo ($row["sn"]); ?></h1>
     	    <div class="red f14">
-                <p>联系方式：{$row.phone_number}</p>
-                <p>联系地址：{$row.address}</p> 
+                <p>您的产品：<?php echo ($row["goods_name"]); ?></p>
+                <p>分量：<?php echo ($row["orders_num"]); ?>份/<?php echo ($row["goods_price"]); ?>元</p>
+                <p>联系方式：<?php echo ($row["phone_number"]); ?></p>
+                <p>联系地址：<?php echo ($row["address"]); ?></p> 
             </div>
-            <div class="an f14">
-            	<a class="" href="{:U('dinnerAdd',array('orders_id'=>$orders_id))}">上一步</a>
-                <a class="" href="{:U('dinnerFinish',array('orders_id'=>$orders_id))}">提交订单</a>
+            <div class="wc f14">
+            	你的订单已完成，可以点击<a class="" href="<?php echo U('query');?>" style="float:none;">”查询订单“</a>查看配送情况或<a href="<?php echo U('Index/index');?>" style="float:none;">选择其他产品</a>
             </div>
 
   </div>
@@ -48,7 +49,7 @@ DD_belatedPNG.fix('div , a , span');
         <p>营业时间中午11:00到凌晨2:00，可外卖，市区内60元以上免费外送！</p>
         </div>
         <div class="fr f18">
-        	关注我们<br /><img src="__IMG__/er.gif" width="83" height="83" />
+        	关注我们<br /><img src="/Public/bootstrap/images/er.gif" width="83" height="83" />
         </div>
     </div>
 </div>
