@@ -36,6 +36,7 @@
                 <th>用餐人数</th>
                 <th>用餐时间</th>
                 <th>提交订座时间</th>
+                <th>操作</th>
             </tr>
             <volist name="rows" id="row" key="k">
             <tr <?php if($k%2!==0) echo "class='info'";echo "class='success'";?>>
@@ -45,6 +46,7 @@
                 <td>{$row.meals_number}</td>
                 <td>{$row.meals_date} {$row.meals_time}</td>
                 <td>{$row.orders_time}</td>
+                <td><a href="javascript:void(0);" onclick="delReservation(this)" value="{$row.id}">删除</a></td>
             </tr>
             </volist>
         </table>
@@ -54,4 +56,21 @@
         </div>
         
     </div>
+</block>
+<block name="js">
+    <script>
+        function delReservation(item){
+            var id=$(item).attr("value");
+            if(window.confirm("确定要删除吗?")){
+                $.post(
+                        "{:U('Admin/Admin/reservation')}",
+                        {id:id},
+                        function(data){
+                            alert(data);
+                            location.reload();
+                        }
+                );                 
+            }
+        }
+    </script>
 </block>

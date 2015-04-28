@@ -47,6 +47,7 @@
                 <th>用餐人数</th>
                 <th>用餐时间</th>
                 <th>提交订座时间</th>
+                <th>操作</th>
             </tr>
             <?php if(is_array($rows)): $k = 0; $__LIST__ = $rows;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$row): $mod = ($k % 2 );++$k;?><tr <?php if($k%2!==0) echo "class='info'";echo "class='success'";?>>
                 <td><?php echo ($row["seat_num"]); ?>号座</td>
@@ -55,6 +56,7 @@
                 <td><?php echo ($row["meals_number"]); ?></td>
                 <td><?php echo ($row["meals_date"]); ?> <?php echo ($row["meals_time"]); ?></td>
                 <td><?php echo ($row["orders_time"]); ?></td>
+                <td><a href="javascript:void(0);" onclick="delReservation(this)" value="<?php echo ($row["id"]); ?>">删除</a></td>
             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </table>
         <!--分页工具条---->
@@ -65,5 +67,21 @@
     </div>
 
         
+    <script>
+        function delReservation(item){
+            var id=$(item).attr("value");
+            if(window.confirm("确定要删除吗?")){
+                $.post(
+                        "<?php echo U('Admin/Admin/reservation');?>",
+                        {id:id},
+                        function(data){
+                            alert(data);
+                            location.reload();
+                        }
+                );                 
+            }
+        }
+    </script>
+
     </body>
 </html>

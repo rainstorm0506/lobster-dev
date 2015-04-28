@@ -114,10 +114,20 @@ class AdminController extends Controller{
     //展示在线订座的记录
     public function reservation(){
         $reservationModel=D("Reservation");
-        $res=$reservationModel->page();
+        if(IS_POST){    //执行删除一条订座记录 
+            $id=$_POST["id"];
+            $res=$reservationModel->where("id={$id}")->delete();
+            if($res!==false){
+                $this->ajaxReturn("删除订座成功");
+            }else{
+                $this->ajaxReturn("删除订座失败");
+            }
+        }else{
+            $res=$reservationModel->page();
 
-        $this->assign($res);
-        $this->display();
+            $this->assign($res);
+            $this->display();
+        }
     }
     //展示餐厅座位表
     public function seats(){
