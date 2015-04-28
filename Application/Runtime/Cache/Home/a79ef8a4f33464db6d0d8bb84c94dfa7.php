@@ -26,23 +26,21 @@ DD_belatedPNG.fix('div , a , span');
     </menu>
 </div></div>
 <div class="main">
-    <div class="con fl con1" style="margin-top:30px;">
-    	<h1>查询结果</h1>
-	<p class="red">订单号：<?php echo ($row["sn"]); ?></p>
-        <p><?php echo ($row["orders_time"]); ?> 您的订单已经提交</p>
-        <?php if($row['checked'] == 1): ?><p><?php echo ($row["checked_time"]); ?> 您的订单已经审核，正在准备配送</p>
-            <!----审核成功之后，开始发货------->
-            <?php if($row['status'] == 0): ?><p><?php echo ($row["checked_time"]); ?> 您的订正在配送，配送员：<?php echo ($row["deliver"]); ?> <?php echo ($row["emp_phone"]); ?></p>
-            <?php elseif($row['status'] == 1): ?>
-                <p><?php echo ($row["deliver"]); ?> 于<?php echo ($row["finish_time"]); ?>已完成送货</p>
-            <?php else: ?>
-                <p>正在处理</p><?php endif; ?> 
-        <?php elseif($row['checked'] == 0): ?>
-            <p>你的订单正在审核</p>
-        <?php else: ?> 你的订单未通过审核<?php endif; ?>            
-            
-        
-  </div>
+    <?php if(is_array($rows)): $i = 0; $__LIST__ = $rows;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$row): $mod = ($i % 2 );++$i;?><div class="con fl con1" style="margin-top:30px;">
+            <h1>查询结果</h1>
+            <p class="red">订单号：<?php echo ($row["sn"]); ?></p>
+            <p><?php echo ($row["orders_time"]); ?> 您的订单已经提交</p>
+            <?php if($row['checked'] == 1): ?><p><?php echo ($row["checked_time"]); ?> 您的订单已经审核，正在准备配送</p>
+                <!----审核成功之后，开始发货------->
+                <?php if($row['status'] == 0): ?><p><?php echo ($row["checked_time"]); ?> 您的订正在配送，配送员：<?php echo ($row["deliver"]); ?> <?php echo ($row["emp_phone"]); ?></p>
+                <?php elseif($row['status'] == 1): ?>
+                    <p><?php echo ($row["deliver"]); ?> 于<?php echo ($row["finish_time"]); ?>已完成送货</p>
+                <?php else: ?>
+                    <p>正在处理</p><?php endif; ?> 
+            <?php elseif($row['checked'] == 0): ?>
+                <p>你的订单正在审核</p>
+            <?php else: ?> 你的订单未通过审核<?php endif; ?>            
+        </div><?php endforeach; endif; else: echo "" ;endif; ?>
 </div>
 <div class="footer">
 	<div class="bot">

@@ -42,4 +42,10 @@ class OrdersModel extends \Think\Model{
         $row["goods_price"]=$data[0]['goods_price'];
         return $row;
     }
+    //根据电话号码查询出所有的订单信息
+    public function getInfoByPhone($phone){
+        $sql="select * from orders where phone_number={$phone}";
+        $res=$this->query($sql);
+        return $res;
+    }
 }

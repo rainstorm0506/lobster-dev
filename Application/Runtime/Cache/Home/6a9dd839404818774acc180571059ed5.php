@@ -1,0 +1,61 @@
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>阿丽小龙虾</title>
+<meta name="description" content="阿丽小龙虾,龙虾,阿丽,小龙虾" />
+<meta name="keywords" content="阿丽小龙虾" />
+<link type="text/css" href="/Public/bootstrap/css/base.css" rel="stylesheet" />
+<script type="text/javascript" src="/Public/bootstrap/js/jquery.min.js"></script>
+<script type="text/javascript" src="/Public/bootstrap/js/formValidator_min.js"></script>
+<!--[if lte IE 6]>
+<script src="/Public/bootstrap/js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('div , a , span');
+</script>
+<![endif]--> 
+</head>
+<body>
+<div class="header"></div>
+<div class="wbanner"><div class="banner">
+	<menu class="f18">
+		<a href="<?php echo U('Index/index');?>">首页</a>
+		<a href="<?php echo U('Seats/index');?>">在线选座</a>
+		<a href="<?php echo U('Orders/query');?>">查询订单</a>
+		<a href="<?php echo U('Help/index');?>">帮助中心</a>
+    </menu>
+</div></div>
+<div class="main">
+	<div class="tit f20 bold fl">帮助中心</div>
+	<div class="con con1 fl">
+    	<dl class="help">
+        	<dt class="f14 bold">阿里旺旺聊天记录可以保存多久？</dt>
+        	<dd>电脑未重装系统前，本地聊天记录会永久存在，您可以在相对应的聊天界面下找到“聊天记录”菜单，里面有“查看本地聊天记录”进去之后就可以看到相应的聊天记录了，活跃度18级以上，在线聊天记录可保存一个月。活跃度不满18级的用户暂时无法保存在线聊天记录噢~</dd>
+        </dl>
+    	<dl class="help">
+        	<dt class="f14 bold">阿里旺旺聊天记录可以保存多久？</dt>
+        	<dd>电脑未重装系统前，本地聊天记录会永久存在，您可以在相对应的聊天界面下找到“聊天记录”菜单，里面有“查看本地聊天记录”进去之后就可以看到相应的聊天记录了，活跃度18级以上，在线聊天记录可保存一个月。活跃度不满18级的用户暂时无法保存在线聊天记录噢~</dd>
+        </dl>
+    	<dl class="help">
+        	<dt class="f14 bold">阿里旺旺聊天记录可以保存多久？</dt>
+        	<dd>电脑未重装系统前，本地聊天记录会永久存在，您可以在相对应的聊天界面下找到“聊天记录”菜单，里面有“查看本地聊天记录”进去之后就可以看到相应的聊天记录了，活跃度18级以上，在线聊天记录可保存一个月。活跃度不满18级的用户暂时无法保存在线聊天记录噢~</dd>
+        </dl>
+	</div>
+</div>
+<div class="footer">
+	<div class="bot">
+    	<div class="copyright fl">
+        <p class="f18">阿丽小龙虾</p>
+        <p>地址： 江苏淮安清河区上海路利苑新村二区14幢107号(近利苑路)</p>
+        <p>电话： 0517-86210712</p>
+        <p>营业时间中午11:00到凌晨2:00，可外卖，市区内60元以上免费外送！</p>
+        </div>
+        <div class="fr f18">
+        	关注我们<br /><img src="/Public/bootstrap/images/er.gif" width="83" height="83" />
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

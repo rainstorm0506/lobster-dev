@@ -98,7 +98,7 @@
                     </td>
                     <!----送货状态--->
                     <td>
-                        <textarea class="form-control" rows="1" cols="10"><?php echo ($row["address"]); ?></textarea>
+                        <textarea class="form-control" rows="1" cols="15"><?php echo ($row["address"]); ?></textarea>
                     </td>
                     <!----送货人--->
                     <td>

@@ -1129,3 +1129,1170 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
 
+[ 2015-04-28T11:42:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Home\Model\GoodsModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2015-04-28T11:43:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Home\Model\GoodsModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2015-04-28T11:48:14+08:00 ] 127.0.0.1 /index.php/Home/Orders/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2015-04-28T11:48:17+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `orders` WHERE ( phone_number=18650215426 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '赵云' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 35 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 36 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'finish_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 35 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 36 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'finish_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 35 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 36 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'finish_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 35 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 36 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'finish_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 35 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 36 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'finish_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 35 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 36 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'finish_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2015-04-28T11:56:42+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Home\Model\GoodsModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2015-04-28T11:56:45+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinner/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Home\Model\GoodsModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `goods` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Use of undefined constant dinner - assumed 'dinner' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\b84398c9db7dec9ba2f1b20da036c61f.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2015-04-28T14:02:40+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0069s ]
+SQL: INSERT INTO `orders` (`sn`,`orders_time`,`goods_id`,`phone_number`) VALUES ('20150428753','2015-04_28 14:02:40','8','18650215426') [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2015-04-28T14:02:42+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinnerAdd/orders_id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2015-04-28T14:03:16+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinnerAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8] Undefined index: orders_id F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0074s ]
+SQL: UPDATE `orders` SET `address`='四川省成都市高新区天府软件园福年广场，T1，2101',`orders_num`='3' WHERE ( id=26 ) [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2015-04-28T14:03:17+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinnerOk/orders_id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0088s ]
+SQL: select phone_number,address from orders where id=26 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2015-04-28T14:03:22+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinnerFinish/orders_id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0078s ]
+SQL: UPDATE `orders` SET `confirm_orders`='1' WHERE ( id=26 ) [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2015-04-28T14:03:23+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinnerConfirm/orders_id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `orders` WHERE ( id=26 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: select name,goods_price from goods where id=8 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2015-04-28T14:03:46+08:00 ] 127.0.0.1 /index.php/Home/Orders/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2015-04-28T14:03:50+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0062s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'where clause'
+NOTIC: [8] Array to string conversion F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 43 行.
+NOTIC: [8] Undefined variable: jumpUrl F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 49 行.
+
+[ 2015-04-28T14:03:54+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Home\Model\GoodsModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2015-04-28T14:05:34+08:00 ] 127.0.0.1 /index.php/Home/Orders/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2015-04-28T14:06:09+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0071s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'where clause'
+
+[ 2015-04-28T14:06:24+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0065s ]
+SQL: select * from orders where phone_number=18650215426 [ RunTime:0.0005s ]
+
+[ 2015-04-28T14:08:45+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0068s ]
+SQL: select * from orders where phone_number=18650215426 [ RunTime:0.0006s ]
+SQL: SELECT * FROM `orders` WHERE ( phone_number=18650215426 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '赵云' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 35 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 36 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'finish_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 35 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 36 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'finish_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 35 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 36 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'finish_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 35 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 36 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'finish_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 35 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 36 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'finish_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 40 行.
+NOTIC: [2] Illegal string offset 'sn' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 31 行.
+NOTIC: [2] Illegal string offset 'orders_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 32 行.
+NOTIC: [2] Illegal string offset 'checked' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'checked_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 33 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 35 行.
+NOTIC: [2] Illegal string offset 'status' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 36 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+NOTIC: [2] Illegal string offset 'finish_time' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2015-04-28T14:10:40+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0065s ]
+SQL: select * from orders where phone_number=18650215426 [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE ( phone_number=18650215426 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '赵云' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: rows F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\a79ef8a4f33464db6d0d8bb84c94dfa7.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2015-04-28T14:13:21+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0068s ]
+SQL: select * from orders where phone_number=18650215426 [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE ( phone_number=18650215426 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '赵云' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-28T14:16:45+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0063s ]
+SQL: select * from orders where phone_number=18650215426 [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE ( phone_number=18650215426 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '1' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'emp_phone' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '2' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'emp_phone' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '7' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'emp_phone' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '2' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'emp_phone' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '2' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'emp_phone' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '1' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'emp_phone' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '1' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'emp_phone' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '2' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'emp_phone' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '1' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'emp_phone' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '2' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'emp_phone' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '1' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'emp_phone' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '�' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'emp_phone' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'deliver' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '�' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'emp_phone' F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 122 行.
+
+[ 2015-04-28T14:17:29+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0066s ]
+SQL: select * from orders where phone_number=18650215426 [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE ( phone_number=18650215426 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-04-28T14:17:57+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0066s ]
+SQL: select * from orders where phone_number=18650215426 [ RunTime:0.0005s ]
+
+[ 2015-04-28T14:19:14+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0066s ]
+SQL: select * from orders where phone_number=18650215426 [ RunTime:0.0006s ]
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '赵云' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-28T14:19:41+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0064s ]
+SQL: select * from orders where phone_number=18650215426 [ RunTime:0.0005s ]
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '赵云' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2015-04-28T14:20:48+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0065s ]
+SQL: select * from orders where phone_number=18650215426 [ RunTime:0.0005s ]
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '赵云' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2015-04-28T14:24:54+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0064s ]
+SQL: select * from orders where phone_number=18650215426 [ RunTime:0.0006s ]
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '赵云' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `phone` FROM `employees` WHERE `emp_name` = '张飞' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2015-04-28T14:25:51+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Home\Model\GoodsModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2015-04-28T14:25:55+08:00 ] 127.0.0.1 /index.php/Home/Help/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2015-04-28T14:27:23+08:00 ] 127.0.0.1 /index.php/Home/Orders/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2015-04-28T14:27:24+08:00 ] 127.0.0.1 /index.php/Home/Seats/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `seats` [ RunTime:0.0092s ]
+SQL: select * from seats [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2015-04-28T14:27:26+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Home\Model\GoodsModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2015-04-28T14:27:51+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinner/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Home\Model\GoodsModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Use of undefined constant dinner - assumed 'dinner' F:\phpEnve\Apache\htdocs\lobster\Application\Runtime\Cache\Home\b84398c9db7dec9ba2f1b20da036c61f.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2015-04-28T14:27:59+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0074s ]
+SQL: INSERT INTO `orders` (`sn`,`orders_time`,`goods_id`,`phone_number`) VALUES ('20150428846','2015-04_28 14:27:59','7','13259574562') [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2015-04-28T14:28:00+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinnerAdd/orders_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2015-04-28T14:28:17+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinnerAdd/orders_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2015-04-28T14:28:38+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinnerAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Undefined index: orders_id F:\phpEnve\Apache\htdocs\lobster\Application\Home\Controller\OrdersController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0070s ]
+SQL: UPDATE `orders` SET `address`='北京市海淀区123号',`orders_num`='2' WHERE ( id=27 ) [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2015-04-28T14:28:39+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinnerOk/orders_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0072s ]
+SQL: select phone_number,address from orders where id=27 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2015-04-28T14:28:44+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinnerOk/orders_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0075s ]
+SQL: select phone_number,address from orders where id=27 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2015-04-28T14:29:51+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinnerFinish/orders_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0081s ]
+SQL: UPDATE `orders` SET `confirm_orders`='1' WHERE ( id=27 ) [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2015-04-28T14:29:53+08:00 ] 127.0.0.1 /index.php/Home/Orders/dinnerConfirm/orders_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `orders` WHERE ( id=27 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: select name,goods_price from goods where id=7 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2015-04-28T14:30:02+08:00 ] 127.0.0.1 /index.php/Home/Orders/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2015-04-28T14:30:05+08:00 ] 127.0.0.1 /index.php/Home/Orders/searchOrders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0086s ]
+SQL: select * from orders where phone_number=13259574562 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2015-04-28T14:32:27+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Home\Model\GoodsModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2015-04-28T14:32:31+08:00 ] 127.0.0.1 /index.php/Home/Seats/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `seats` [ RunTime:0.0070s ]
+SQL: select * from seats [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+

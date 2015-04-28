@@ -108,18 +108,20 @@ class OrdersController extends \Think\Controller{
         $employee_model=M("Employees");
         if(IS_POST){
             $phone_number=I("post.phone_number");
-            //根据订单sn查询出对应的订单信息
-            $row=$orders_model->where("phone_number={$phone_number}")->find();
-
+            //根据订单“电话号码”查询出对应的订单信息
+            $rows=$orders_model->getInfoByPhone($phone_number);
+            //$rows=$orders_model->where("phone_number={$phone_number}")->find();
             //根据deliver查询出对应的“电话号码”
             $employee_model=M("Employees");
-            if($row['deliver']==""){
-                $row["deliver"]="未指定送货员";
-                $row["emp_phone"]="暂无号码";
-            }else{
-                $row["emp_phone"]=$employee_model->where(array("emp_name"=>$row["deliver"]))->getField("phone");
+            foreach ($rows as &$row) {
+                if($row['deliver']==""){
+                    $row["deliver"]="未指定送货员";
+                    $row["emp_phone"]="暂无号码";
+                }else{
+                    $row["emp_phone"]=$employee_model->where(array("emp_name"=>$row["deliver"]))->getField("phone");
+                }                
             }
-            $this->assign("row",$row);
+            $this->assign("rows",$rows);
             $this->display("searchOrders");
         }else{
             $this->dinner("query");
