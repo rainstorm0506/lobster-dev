@@ -1,30 +1,7 @@
 <extend name="Common/base"/>
-    <block name="nav">
-<nav class="navbar navbar-default">
-  <div class="container-fluid">        
-        <div class="container">
-            <!----导航栏开始------->
-            <ul class="nav nav-pills">
-                <li role="presentation"><a href="{:U('Admin/index')}"><h4>用户管理</h4></a></li>
-                <li role="presentation"><a href="{:U('Admin/lists')}"><h4>产品列表</h4></a></li>
-                <li role="presentation" class="active"><a href="{:U('Admin/orders')}"><h4>订单列表</h4></a></li>
-                <li role="presentation"><a href="{:U('Admin/seats')}"><h4>座位分布表</h4></a></li>
-                <li role="presentation"><a href="{:U('Admin/reservation')}"><h4>订座列表</h4></a></li>
-                <li role="presentation"><a href="{:U('Admin/employees')}"><h4>员工列表</h4></a></li>
-                <li role="presentation">
-                    <button type="button" class="btn btn-warning navbar-btn" style="margin-left: 320px">
-                        <a href="{:U('Admin/logout')}">安全退出</a>
-                    </button>
-                </li>
-            </ul>  
-            <!----导航栏结束----->
-        </div> 
-  </div>
-</nav>
-    </block>
-    <block name="content">
+<block name="content">
         <!--显示搜索框----->
-        <div style="width: 85%;margin: 0 auto">
+        <div>
             <form class="navbar-form navbar-left" role="search">
                <div class="form-group">
                    <i class="glyphicon glyphicon-search"><strong>订单搜索:</strong></i>
@@ -37,7 +14,7 @@
             </form>
         </div>
         <!--显示搜索框----->
-        <div style="width: 85%;margin: 0 auto">
+        <div>
             <table class="table table-striped table-condensed table-bordered">
             <thead>
               <tr>
@@ -160,7 +137,7 @@
                 </td>
             </tr> 
         </script>
-    </block>
+</block>
 <!----JS代码块，控制订单审核的状态----->
 <block name="js">
     <script>

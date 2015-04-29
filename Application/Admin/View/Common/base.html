@@ -1,42 +1,79 @@
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>阿丽龙虾后台管理</title>
+        <meta charset="UTF-8">
+        <title>阿丽龙虾管理平台</title>
+        <!--bootstrap的样式---->
         <link rel="stylesheet" href="__CSS__/bootstrap.min.css" type="text/css">
         <!--加载自定义css样式-->
         <link rel="stylesheet" href="__CSS__/self.css" type="text/css">
         <link rel="stylesheet" href="__CSS__/page.css" type="text/css">
+        <!--bootstrap的样式---->
+        <link rel="stylesheet" type="text/css" href="__CSS__/base1.css" media="all">
+        <link rel="stylesheet" type="text/css" href="__CSS__/common.css" media="all">
+        <link rel="stylesheet" type="text/css" href="__CSS__/module.css">
+        <link rel="stylesheet" type="text/css" href="__CSS__/style.css" media="all">
+            <link rel="stylesheet" type="text/css" href="__CSS__/blue_color.css" media="all">
+         <!--[if lt IE 9]>
+        <script type="text/javascript" src="/onethink/Public/static/jquery-1.10.2.min.js"></script>
+        <![endif]--><!--[if gte IE 9]><!-->
         <script type="text/javascript" src="__JS__/jquery.js"></script>
+        <script type="text/javascript" src="__JS__/jquery.mousewheel.js"></script>
         <script type="text/javascript" src="__JS__/bootstrap.min.js"></script>
-         <script type="text/javascript" src="__JS__/jquery.tmpl.min.js"></script>
-    <block name='css'></block>
+        <script type="text/javascript" src="__JS__/jquery.tmpl.min.js"></script>
+        <!--<![endif]-->
+        <block name='css'></block>
     </head>
-    <body>
-        <block name="nav">
-<nav class="navbar navbar-default">
-  <div class="container-fluid">        
-            
-        <div class="container">
-            <!----导航栏开始------->
-            <ul class="nav nav-pills">
-              <li role="presentation" class="active"><a href="{:U('Admin/index')}"><h4>用户管理</h4></a></li>
-              <li role="presentation"><a href="{:U('Admin/lists')}"><h4>产品列表</h4></a></li>
-              <li role="presentation"><a href="{:U('Admin/orders')}"><h4>订单列表</h4></a></li>
-              <li role="presentation"><a href="{:U('Admin/seats')}"><h4>座位分布表</h4></a></li>
-              <li role="presentation"><a href="{:U('Admin/reservation')}"><h4>订座列表</h4></a></li>
-              <li role="presentation"><a href="{:U('Admin/employees')}"><h4>员工列表</h4></a></li>
-              <li role="presentation">
-                <button type="button" class="btn btn-warning navbar-btn" style="margin-left: 320px">
-                    <a href="{:U('Admin/logout')}">安全退出</a>
-                </button>
-              </li>
-            </ul>  
-            <!----导航栏结束----->
-        </div> 
-  </div>
-</nav>
-        </block>
-        <block name="content"> </block>
+    <body style="">
+        <!-- 头部 -->
+        <div class="header">
+            <!-- Logo -->
+            <span class="logo" style="margin-left: 0px">
+                <img src="__IMG__/view.jpg" style="width:190;height: 48">
+            </span>
+            <!-- /Logo -->
+
+            <!-- 主导航 -->
+            <ul class="main-nav">
+                <li class="">
+                    <a href="{:U('Admin/Admin/lists')}">首页</a>
+                </li>
+                <li class="manager">你好，<em title="admin">admin</em></li>
+                <li><a href="{:U('Admin/Admin/logout')}">安全退出</a></li>
+            </ul>
+            <!-- /主导航 -->
+
+            <!-- 用户栏 -->
+            <div class="user-bar">
+                <a href="javascript:;" class="user-entrance"><i class="icon-user"></i></a>
+                <ul class="nav-list user-menu hidden">
+                    <li class="manager">你好，<em title="admin">admin</em></li>
+                    <li><a href="">安全退出</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /头部 -->
+
+        <!-- 边栏 -->
+        <div class="sidebar" style="width: 184px;margin-left: 0px;">
+            <div id="subnav" class="subnav">
+                <ul>
+                  <li role="presentation"><a href="{:U('Admin/index')}"><h4>用户管理</h4></a></li>
+                  <li role="presentation" class="active"><a href="{:U('Admin/lists')}"><h4>产品列表</h4></a></li>
+                  <li role="presentation" class="item"><a href="{:U('Admin/orders')}"><h4>订单列表</h4></a></li>
+                  <li role="presentation" class="item"><a href="{:U('Admin/seats')}"><h4>座位分布表</h4></a></li>
+                  <li role="presentation" class="item"><a href="{:U('Admin/reservation')}"><h4>订座列表</h4></a></li>
+                  <li role="presentation" class="item"><a href="{:U('Admin/employees')}"><h4>员工列表</h4></a></li>
+                </ul>        
+            </div>
+        </div>
+        <!-- /边栏 -->
+
+        <!-- 内容区 -->
+        <div id="main-content" style="margin-top: 8px;margin-left: -25px;">
+            <block name="content"></block>
+        </div>
+        <!-- /内容区 -->
+        <!----JS代码块----->
         <block name="js"></block>
     </body>
 </html>

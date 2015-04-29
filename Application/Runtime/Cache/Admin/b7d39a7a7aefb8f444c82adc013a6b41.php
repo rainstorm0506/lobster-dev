@@ -1,46 +1,81 @@
 <?php if (!defined('THINK_PATH')) exit();?><html>
     <head>
-        <meta charset="utf-8">
-        <title>阿丽龙虾后台管理</title>
+        <meta charset="UTF-8">
+        <title>阿丽龙虾管理平台</title>
+        <!--bootstrap的样式---->
         <link rel="stylesheet" href="/Public/bootstrap/css/bootstrap.min.css" type="text/css">
         <!--加载自定义css样式-->
         <link rel="stylesheet" href="/Public/bootstrap/css/self.css" type="text/css">
         <link rel="stylesheet" href="/Public/bootstrap/css/page.css" type="text/css">
+        <!--bootstrap的样式---->
+        <link rel="stylesheet" type="text/css" href="/Public/bootstrap/css/base1.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/Public/bootstrap/css/common.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/Public/bootstrap/css/module.css">
+        <link rel="stylesheet" type="text/css" href="/Public/bootstrap/css/style.css" media="all">
+            <link rel="stylesheet" type="text/css" href="/Public/bootstrap/css/blue_color.css" media="all">
+         <!--[if lt IE 9]>
+        <script type="text/javascript" src="/onethink/Public/static/jquery-1.10.2.min.js"></script>
+        <![endif]--><!--[if gte IE 9]><!-->
         <script type="text/javascript" src="/Public/bootstrap/js/jquery.js"></script>
+        <script type="text/javascript" src="/Public/bootstrap/js/jquery.mousewheel.js"></script>
         <script type="text/javascript" src="/Public/bootstrap/js/bootstrap.min.js"></script>
-         <script type="text/javascript" src="/Public/bootstrap/js/jquery.tmpl.min.js"></script>
-    
+        <script type="text/javascript" src="/Public/bootstrap/js/jquery.tmpl.min.js"></script>
+        <!--<![endif]-->
+        
     <link rel="stylesheet" type="text/css" href="/Public/bootstrap/uploadify/uploadify.css">
 
     </head>
-    <body>
-        
-<nav class="navbar navbar-default">
-  <div class="container-fluid">        
-        <div class="container">
-            <!----导航栏开始------->
-            <ul class="nav nav-pills">
-                <li role="presentation"><a href="<?php echo U('Admin/index');?>"><h4>用户管理</h4></a></li>
-                <li role="presentation" class="active"><a href="<?php echo U('Admin/lists');?>"><h4>产品列表</h4></a></li>
-                <li role="presentation"><a href="<?php echo U('Admin/orders');?>"><h4>订单列表</h4></a></li>
-                <li role="presentation"><a href="<?php echo U('Admin/seats');?>"><h4>座位分布表</h4></a></li>
-                <li role="presentation"><a href="<?php echo U('Admin/reservation');?>"><h4>订座列表</h4></a></li>
-                <li role="presentation"><a href="<?php echo U('Admin/employees');?>"><h4>员工列表</h4></a></li>
-                <li role="presentation">
-                    <button type="button" class="btn btn-warning navbar-btn" style="margin-left: 320px">
-                        <a href="<?php echo U('Admin/logout');?>">安全退出</a>
-                    </button>
+    <body style="">
+        <!-- 头部 -->
+        <div class="header">
+            <!-- Logo -->
+            <span class="logo" style="margin-left: 0px">
+                <img src="/Public/bootstrap/images/view.jpg" style="width:190;height: 48">
+            </span>
+            <!-- /Logo -->
+
+            <!-- 主导航 -->
+            <ul class="main-nav">
+                <li class="">
+                    <a href="<?php echo U('Admin/Admin/lists');?>">首页</a>
                 </li>
-            </ul>  
-            <!----导航栏结束----->
-        </div> 
-  </div>
-</nav>
-    
-        
+                <li class="manager">你好，<em title="admin">admin</em></li>
+                <li><a href="<?php echo U('Admin/Admin/logout');?>">安全退出</a></li>
+            </ul>
+            <!-- /主导航 -->
+
+            <!-- 用户栏 -->
+            <div class="user-bar">
+                <a href="javascript:;" class="user-entrance"><i class="icon-user"></i></a>
+                <ul class="nav-list user-menu hidden">
+                    <li class="manager">你好，<em title="admin">admin</em></li>
+                    <li><a href="">安全退出</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /头部 -->
+
+        <!-- 边栏 -->
+        <div class="sidebar" style="width: 184px;margin-left: 0px;">
+            <div id="subnav" class="subnav">
+                <ul>
+                  <li role="presentation"><a href="<?php echo U('Admin/index');?>"><h4>用户管理</h4></a></li>
+                  <li role="presentation" class="active"><a href="<?php echo U('Admin/lists');?>"><h4>产品列表</h4></a></li>
+                  <li role="presentation" class="item"><a href="<?php echo U('Admin/orders');?>"><h4>订单列表</h4></a></li>
+                  <li role="presentation" class="item"><a href="<?php echo U('Admin/seats');?>"><h4>座位分布表</h4></a></li>
+                  <li role="presentation" class="item"><a href="<?php echo U('Admin/reservation');?>"><h4>订座列表</h4></a></li>
+                  <li role="presentation" class="item"><a href="<?php echo U('Admin/employees');?>"><h4>员工列表</h4></a></li>
+                </ul>        
+            </div>
+        </div>
+        <!-- /边栏 -->
+
+        <!-- 内容区 -->
+        <div id="main-content" style="margin-top: 8px;margin-left: -25px;">
+            
         <div class="container">
             <p>
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="margin-left: 950px">
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
                     添加产品
                 </button>
             </p>
@@ -234,7 +269,10 @@
                            <input type="reset" value="重置" class="btn btn-info">
                         </form>
          </script>
-    
+
+        </div>
+        <!-- /内容区 -->
+        <!----JS代码块----->
         
     <script>	
         //点击编辑按钮需要触发的事件 

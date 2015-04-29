@@ -1,0 +1,3310 @@
+[ 2015-04-28T15:11:40+08:00 ] 127.0.0.1 /onethink/index.php?s=/admin/public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+ERR: 无法加载控制器:Public
+NOTIC: [8] Array to string conversion F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 43 行.
+NOTIC: [8] Undefined variable: jumpUrl F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 49 行.
+
+[ 2015-04-28T15:35:13+08:00 ] 127.0.0.1 /onethink/index.php?s=/admin/public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003424s ]
+ERR: 无法加载控制器:Public
+NOTIC: [8] Array to string conversion F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 43 行.
+NOTIC: [8] Undefined variable: jumpUrl F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 49 行.
+
+[ 2015-04-28T15:38:05+08:00 ] 127.0.0.1 /onethink/index.php?s=/admin/public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+ERR: 无法加载控制器:Public
+NOTIC: [8] Array to string conversion F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 43 行.
+NOTIC: [8] Undefined variable: jumpUrl F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 49 行.
+
+[ 2015-04-28T15:39:59+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.024126s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.024276s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1877s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0392s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000579s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000766s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.290623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.290761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005996s ]
+
+[ 2015-04-28T15:40:01+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002727s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002875s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001840s ]
+
+[ 2015-04-28T15:40:02+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003062s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004021s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004220s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000578s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000745s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005249s ]
+
+[ 2015-04-28T15:42:54+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003333s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004145s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004337s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002626s ]
+
+[ 2015-04-28T15:42:56+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002555s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002695s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002775s ]
+
+[ 2015-04-28T15:42:58+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002054s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002168s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003132s ]
+
+[ 2015-04-28T15:43:09+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003457s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004189s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004382s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002206s ]
+
+[ 2015-04-28T15:43:10+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003352s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004162s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004349s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003535s ]
+
+[ 2015-04-28T15:44:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001891s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002009s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002746s ]
+
+[ 2015-04-28T15:45:07+08:00 ] 127.0.0.1 /index.php/Admin/Admin/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003940s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004949s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005245s ]
+
+[ 2015-04-28T16:41:43+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003598s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.020372s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.020612s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001887s ]
+
+[ 2015-04-28T16:43:31+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.023392s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.023603s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.5495s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.2153s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001725s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001937s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.030941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011190s ]
+
+[ 2015-04-28T16:48:19+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002528s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.058195s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.058343s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1778s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0657s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000792s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000901s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.234200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.234312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.088372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.088500s ]
+
+[ 2015-04-28T16:50:10+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003135s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004418s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004667s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000795s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000917s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005796s ]
+
+[ 2015-04-28T16:50:12+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.062842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.077929s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002870s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.042239s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000795s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000910s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008458s ]
+
+[ 2015-04-28T16:54:40+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002518s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002635s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000837s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000995s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014930s ]
+
+[ 2015-04-28T16:54:42+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.056390s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.053715s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.054606s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006922s ]
+
+[ 2015-04-28T16:55:47+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003975s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004788s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005034s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000929s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002357s ]
+
+[ 2015-04-28T16:57:07+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.005259s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005403s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014849s ]
+
+[ 2015-04-28T16:57:34+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003660s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004010s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004238s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002481s ]
+
+[ 2015-04-28T17:04:08+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002827s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.030867s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.031092s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000916s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003105s ]
+
+[ 2015-04-28T17:04:43+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002090s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002949s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003123s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000969s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002502s ]
+
+[ 2015-04-28T17:05:06+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001986s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002100s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000901s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002209s ]
+
+[ 2015-04-28T17:05:42+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003672s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004162s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004364s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0158s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000953s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002491s ]
+
+[ 2015-04-28T17:06:09+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002984s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003111s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0906s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0344s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006155s ]
+
+[ 2015-04-28T17:07:52+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002981s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003160s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2015-04-28T17:07:59+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002319s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002481s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000846s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004812s ]
+
+[ 2015-04-28T17:08:16+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002424s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002281s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002427s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006136s ]
+
+[ 2015-04-28T17:08:41+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002955s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002520s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002669s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000908s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006166s ]
+
+[ 2015-04-28T17:08:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004173s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004412s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0241s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000923s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007639s ]
+
+[ 2015-04-28T17:09:26+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021914s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002766s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002918s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005412s ]
+
+[ 2015-04-28T17:15:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003825s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003995s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005614s ]
+
+[ 2015-04-28T17:16:33+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002608s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003023s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003206s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0265s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026859s ]
+
+[ 2015-04-28T17:18:28+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002919s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003043s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000831s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000947s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004755s ]
+
+[ 2015-04-28T17:19:00+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001817s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001945s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000864s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002081s ]
+
+[ 2015-04-28T17:19:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002083s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002202s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000908s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004398s ]
+
+[ 2015-04-28T17:19:24+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003491s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003660s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000892s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002885s ]
+
+[ 2015-04-28T17:19:26+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004480s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004647s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004983s ]
+
+[ 2015-04-28T17:20:05+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005158s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.007073s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.007233s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000974s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002485s ]
+
+[ 2015-04-28T17:20:07+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002632s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003421s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003590s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001377s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004442s ]
+
+[ 2015-04-28T17:22:37+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004878s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002727s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002886s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001773s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001932s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004913s ]
+
+[ 2015-04-28T17:22:38+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002470s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003603s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003770s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.040623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.040766s ]
+
+[ 2015-04-28T17:23:07+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001984s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003384s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003534s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001003s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002584s ]
+
+[ 2015-04-28T17:23:08+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005136s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002178s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002319s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000937s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003895s ]
+
+[ 2015-04-28T17:23:08+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002323s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002462s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004912s ]
+
+[ 2015-04-28T17:23:39+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002800s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002948s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0279s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000950s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005086s ]
+
+[ 2015-04-28T17:23:41+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005272s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.008501s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.008741s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000979s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004428s ]
+
+[ 2015-04-28T17:23:43+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003495s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004624s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004847s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000937s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004983s ]
+
+[ 2015-04-28T17:23:45+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002907s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.007323s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.007458s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002548s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002704s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008584s ]
+
+[ 2015-04-28T17:24:37+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002838s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003859s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004042s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001508s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001722s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005699s ]
+
+[ 2015-04-28T17:24:45+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003586s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004195s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004408s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `user` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000554s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009260s ]
+
+[ 2015-04-28T17:25:13+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002643s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002783s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002098s ]
+
+[ 2015-04-28T17:25:15+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003556s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002996s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003164s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005147s ]
+
+[ 2015-04-28T17:30:43+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002290s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002438s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2015-04-28T17:38:49+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006224s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004248s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004465s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005437s ]
+
+[ 2015-04-28T17:40:30+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002946s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.056629s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.056826s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.181424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.033507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005524s ]
+
+[ 2015-04-28T17:41:44+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003066s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.005490s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005725s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0295s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000660s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000842s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003991s ]
+
+[ 2015-04-28T17:43:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/findGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004139s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.010355s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.010585s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0301s ]
+SQL: SELECT * FROM `goods` WHERE `id` = '7' LIMIT 1   [ RunTime:0.0264s ]
+
+[ 2015-04-28T17:44:19+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004170s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.005379s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005574s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0252s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002151s ]
+
+[ 2015-04-28T17:44:21+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003552s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004788s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005034s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004721s ]
+
+[ 2015-04-28T17:45:00+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001925s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002976s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003144s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0178s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028161s ]
+
+[ 2015-04-28T17:45:41+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001854s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001969s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006520s ]
+
+[ 2015-04-28T17:47:40+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003634s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004791s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005028s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004992s ]
+
+[ 2015-04-28T17:48:32+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003027s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004536s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004767s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0470s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000480s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008580s ]
+
+[ 2015-04-28T17:48:34+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001771s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001890s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001714s ]
+
+[ 2015-04-28T17:49:43+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002816s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004065s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004294s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2015-04-28T17:49:45+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003857s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004160s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.013758s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.2024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0226s ]
+SQL: select * from goods where id=7 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004598s ]
+
+[ 2015-04-28T17:49:47+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002979s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003109s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.3520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2015-04-28T17:50:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002209s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002326s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0663s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: select * from goods where id=7 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003072s ]
+
+[ 2015-04-28T17:50:35+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003049s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003179s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2015-04-28T17:51:53+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002864s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004237s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004460s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: select * from goods where id=7 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000633s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000919s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009012s ]
+
+[ 2015-04-28T17:51:54+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001771s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001882s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0008s ]
+
+[ 2015-04-28T17:52:04+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002699s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002864s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: select * from goods where id=7 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044824s ]
+
+[ 2015-04-28T17:52:04+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.007871s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.008023s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0008s ]
+
+[ 2015-04-28T17:52:26+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003577s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.005522s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005692s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: select * from goods where id=7 [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.037693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.037841s ]
+
+[ 2015-04-28T17:52:26+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003437s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003580s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-28T17:52:44+08:00 ] 127.0.0.1 /index.php/Admin/Orders/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003391s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004316s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004513s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `orders` WHERE ( sn=20150427319 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0104s ]
+SQL: select name,goods_price from goods where id=7 [ RunTime:0.0006s ]
+
+[ 2015-04-28T17:53:09+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002434s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002572s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: select * from goods where id=7 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000595s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002545s ]
+
+[ 2015-04-28T17:53:10+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003603s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002660s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002806s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2015-04-28T17:54:03+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002202s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002919s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003064s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: select * from goods where id=7 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004074s ]
+
+[ 2015-04-28T17:54:03+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002994s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003120s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-28T17:54:10+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005810s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.006411s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006664s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: select * from goods where id=7 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005521s ]
+
+[ 2015-04-28T17:54:11+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002545s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004065s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004267s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2015-04-28T17:54:25+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001755s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001873s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0015s ]
+SQL: select * from goods where id=7 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004779s ]
+
+[ 2015-04-28T17:54:25+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003134s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2015-04-28T17:54:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002021s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002142s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0472s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: select * from goods where id=7 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000622s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000912s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006519s ]
+
+[ 2015-04-28T17:54:35+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002784s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002940s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0008s ]
+
+[ 2015-04-28T17:54:47+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003188s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.005187s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005411s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: select * from goods where id=7 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004604s ]
+
+[ 2015-04-28T17:54:47+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002871s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003031s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2015-04-28T17:54:50+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003661s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002942s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003099s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032022s ]
+
+[ 2015-04-28T17:54:55+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003282s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004186s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004394s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000668s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000880s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003981s ]
+
+[ 2015-04-28T17:55:39+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001974s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002091s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: select * from goods where id=7 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000838s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002589s ]
+
+[ 2015-04-28T17:55:39+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001991s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002096s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2015-04-28T17:56:00+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001990s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002104s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: select * from goods where id=7 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005410s ]
+
+[ 2015-04-28T17:56:00+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001771s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001881s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0032s ]
+
+[ 2015-04-28T17:56:31+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003104s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004708s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004925s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: select * from goods where id=7 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000660s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000892s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011169s ]
+
+[ 2015-04-28T17:56:32+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002189s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002295s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2015-04-28T17:56:34+08:00 ] 127.0.0.1 /index.php/Admin/Admin/reservation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004035s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.005445s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005691s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0734s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reservation` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `reservation` LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: select * from seats where seat_number=9 [ RunTime:0.0800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001650s ]
+
+[ 2015-04-28T17:57:10+08:00 ] 127.0.0.1 /index.php/Admin/Admin/reservation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002947s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003105s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reservation` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `reservation` LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: select * from seats where seat_number=9 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002036s ]
+
+[ 2015-04-28T17:57:42+08:00 ] 127.0.0.1 /index.php/Admin/Admin/reservation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002054s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002169s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reservation` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `reservation` LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: select * from seats where seat_number=9 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2015-04-28T17:57:44+08:00 ] 127.0.0.1 /index.php/Admin/Admin/seats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003923s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.008996s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.009225s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `seats` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `seats` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `seats` LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002627s ]
+
+[ 2015-04-28T17:58:04+08:00 ] 127.0.0.1 /index.php/Admin/Admin/seats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002873s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002070s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002193s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `seats` [ RunTime:0.0161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `seats` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `seats` LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004670s ]
+
+[ 2015-04-28T17:58:42+08:00 ] 127.0.0.1 /index.php/Admin/Admin/seats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001844s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001960s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `seats` [ RunTime:0.0147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `seats` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `seats` LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005633s ]
+
+[ 2015-04-28T17:58:44+08:00 ] 127.0.0.1 /index.php/Admin/Admin/employees.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004744s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.005286s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005525s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000499s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000732s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008759s ]
+
+[ 2015-04-28T17:59:04+08:00 ] 127.0.0.1 /index.php/Admin/Admin/employees.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003587s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004441s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004677s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0218s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000626s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011064s ]
+
+[ 2015-04-28T17:59:20+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003324s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.014511s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.014758s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002141s ]
+
+[ 2015-04-28T17:59:22+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003277s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004118s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004351s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0254s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002548s ]
+
+[ 2015-04-28T17:59:51+08:00 ] 127.0.0.1 /index.php/Admin/Admin/reservation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006005s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004044s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004257s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reservation` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `reservation` LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: select * from seats where seat_number=9 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000595s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003316s ]
+
+[ 2015-04-28T18:00:34+08:00 ] 127.0.0.1 /index.php/Admin/Admin/reservation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005204s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.015434s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.015650s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reservation` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `reservation` LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: select * from seats where seat_number=9 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004639s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004840s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003304s ]
+
+[ 2015-04-28T18:01:48+08:00 ] 127.0.0.1 /index.php/Admin/Admin/reservation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003102s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003917s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004138s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0204s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reservation` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `reservation` LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: select * from seats where seat_number=9 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000606s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003442s ]
+
+[ 2015-04-28T18:02:24+08:00 ] 127.0.0.1 /index.php/Admin/Admin/reservation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003250s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.005718s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005954s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reservation` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reservation` LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: select * from seats where seat_number=9 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2015-04-28T18:02:45+08:00 ] 127.0.0.1 /index.php/Admin/Admin/reservation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002520s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002672s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reservation` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `reservation` LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: select * from seats where seat_number=9 [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002360s ]
+
+[ 2015-04-28T18:02:52+08:00 ] 127.0.0.1 /index.php/Admin/Admin/reservation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002407s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002548s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reservation` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `reservation` LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: select * from seats where seat_number=9 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2015-04-28T18:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003484s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004773s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005014s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005016s ]
+
+[ 2015-04-28T18:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003464s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004535s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004754s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002762s ]
+
+[ 2015-04-28T18:03:08+08:00 ] 127.0.0.1 /index.php/Admin/Admin/seats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001896s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002015s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `seats` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `seats` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `seats` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006971s ]
+
+[ 2015-04-28T18:04:31+08:00 ] 127.0.0.1 /index.php/Admin/Admin/seats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003449s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004273s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004503s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `seats` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `seats` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `seats` LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006150s ]
+
+[ 2015-04-28T18:04:33+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003718s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.005454s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005702s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002167s ]
+
+[ 2015-04-28T18:04:37+08:00 ] 127.0.0.1 /index.php/Admin/Admin/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003112s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004937s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005167s ]
+
+[ 2015-04-28T18:04:47+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003066s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004391s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004611s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002497s ]
+
+[ 2015-04-28T20:38:01+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003063s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.019066s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.019292s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: header F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Library\Think\Page.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000640s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000832s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003505s ]
+
+[ 2015-04-28T20:49:26+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003264s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004450s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004670s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002606s ]
+
+[ 2015-04-28T20:49:38+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003549s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004326s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004562s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000669s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000885s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002171s ]
+
+[ 2015-04-28T20:57:16+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003999s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.006021s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006251s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0163s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000627s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009325s ]
+
+[ 2015-04-28T22:43:13+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002709s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.020985s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.021206s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000766s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000987s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003407s ]
+
+[ 2015-04-28T22:43:18+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003143s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004690s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004987s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: select * from goods where id=7 [ RunTime:0.0007s ]
+SQL: select * from goods where id=8 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004671s ]
+
+[ 2015-04-28T22:43:19+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001790s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001923s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2015-04-28T22:43:33+08:00 ] 127.0.0.1 /index.php/Admin/Orders/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002603s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002693s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002895s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0155s ]
+SQL: UPDATE `orders` SET `checked`='1',`status`='0',`checked_time`='2015-04-28 22:43:33' WHERE `id` = 20 [ RunTime:0.0025s ]
+
+[ 2015-04-28T22:43:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002579s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002782s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `orders` LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: select * from goods where id=7 [ RunTime:0.0009s ]
+SQL: select * from goods where id=8 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000714s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000949s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019838s ]
+
+[ 2015-04-28T22:43:35+08:00 ] 127.0.0.1 /index.php/Admin/Employees/findAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001255s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001364s ]
+NOTIC: [2048] Declaration of Admin\Model\BaseModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) F:\phpEnve\Apache\htdocs\lobster\Application\Admin\Model\BaseModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `employees` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `employees` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `employees` LIMIT 0,10   [ RunTime:0.0008s ]
+

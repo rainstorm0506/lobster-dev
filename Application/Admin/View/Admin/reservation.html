@@ -2,29 +2,6 @@
 <block name='css'>
     <link rel="stylesheet" type="text/css" href="__UPLOADIFY__/uploadify.css">
 </block>
-<block name="nav">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">        
-              <div class="container">
-                  <!----导航栏开始------->
-                  <ul class="nav nav-pills">
-                      <li role="presentation"><a href="{:U('Admin/index')}"><h4>用户管理</h4></a></li>
-                      <li role="presentation"><a href="{:U('Admin/lists')}"><h4>产品列表</h4></a></li>
-                      <li role="presentation"><a href="{:U('Admin/orders')}"><h4>订单列表</h4></a></li>
-                      <li role="presentation"><a href="{:U('Admin/seats')}"><h4>座位分布表</h4></a></li>
-                      <li role="presentation" class="active"><a href="{:U('Admin/reservation')}"><h4>订座列表</h4></a></li>
-                      <li role="presentation"><a href="{:U('Admin/employees')}"><h4>员工列表</h4></a></li>
-                      <li role="presentation">
-                          <button type="button" class="btn btn-warning navbar-btn" style="margin-left: 320px">
-                              <a href="{:U('Admin/logout')}">安全退出</a>
-                          </button>
-                      </li>
-                  </ul>  
-                  <!----导航栏结束----->
-              </div> 
-        </div>
-    </nav>
-</block>
 <!----在线订座  ----->
 <block name='content'>
     <div class="container">

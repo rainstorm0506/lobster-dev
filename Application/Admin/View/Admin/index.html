@@ -1,8 +1,8 @@
 <extend name="Common/base"/>
-    <block name="content">
+<block name="content">
         <div class="container">
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="margin-left: 950px">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
               添加用户
             </button>
             <!-- Button trigger modal -->
@@ -51,11 +51,12 @@
             </div>
             <!-- Button trigger modal -->
 
-            <table class="table table-bordered">
+            <table class="table table-striped" style="width: 80%">
               <tr>
                   <th>用户名</th>
                   <th>状态</th>
-                  <th>操作</th>
+                  <th>禁用</th>
+                  <th>删除</th>
               </tr>
               <volist name="rows" id="row">
               <tr>
@@ -72,7 +73,8 @@
                       <span>
                           <a href="javascript:void(0)" value="{$row.id}" class="forbidden">禁用该用户</a>
                       </span>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </td>
+                  <td>
                       <span>
                           <a href="javascript:void(0)" value="{$row.id}" class="deluser">永久删除用户</a>
                       </span>
@@ -85,7 +87,7 @@
                 {$pageHTML}
             </div>
         </div>
-    </block>
+</block>
 <block name="js">
     <script type="text/javascript"> 
         $(function(){
