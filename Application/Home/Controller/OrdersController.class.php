@@ -32,14 +32,17 @@ class OrdersController extends \Think\Controller{
             $data["goods_id"]=I("post.goods_id");
             $data["phone_number"]=I("post.phone_number");
             
-            $orders_model=D("Orders");
+//            $orders_model=D("Orders");
             //添加一些数据到数据库
-            $orders_id=$orders_model->addSome($data);
-            if($orders_id){  //添加数据成功,展示“添加订单”的界面
-                $this->success("请填写具体送餐位置！",U('dinnerAdd',array("orders_id"=>$orders_id)));
-            }else{
-                $this->error("订单未保存成功!");
-            }              
+//            $orders_id=$orders_model->addSome($data);
+//            if($orders_id){  //添加数据成功,展示“添加订单”的界面
+                $this->assign("data",$data);
+                //$this->assign("orders_id",$orders_id);
+                $this->display("dinner_add");
+               // $this->success("请填写具体送餐位置！",U('dinnerAdd',array("orders_id"=>$orders_id)));
+//            }else{
+//                $this->error("订单未保存成功!");
+//            }              
         }else{
             $id=$_GET["id"];
             $goods_model=D("Goods");
@@ -51,22 +54,32 @@ class OrdersController extends \Think\Controller{
     //添加订单"单独搞一个方法"防止刷新
     public function dinnerAdd(){
         //接收订单“添加成功”返回的“订单ID”
-        $orders_id=$_GET["orders_id"];
         $orders_model=D("Orders");
-        
+        //用户点击上一步的时候，带有"订单ID"，回显
         if(IS_POST){
             $datas=I("post.");
-            $data["address"]=$datas["address"];
-            $data["orders_num"]=$datas["orders_num"];
-            //更新orders列表
-            $res=$orders_model->updateById($datas["id"],$data);
-            if($res!==false){
-                $this->success("请点击下面的‘确认订单’以便生效!",U("dinnerOk",array("orders_id"=>$datas["id"])));
+            $sn=$datas["sn"];
+            //判断提交过来的编号是否已经存在数据库
+            $rows=$orders_model->getInfoBySn($sn);
+            if(count($rows)!=0){ //说明需要更新
+                $res=$orders_model->where("sn={$sn}")->save($datas);
+                if($res!==false){
+                    $this->success("请点击下面的‘确认订单’以便生效!",U("dinnerOk",array("orders_id"=>$rows[0]["id"])));
+                }else{
+                    $this->error("订单填写有误");
+                }
             }else{
-                $this->error("订单数据有误，请仔细审查订单数据");
+                $orders_id=$orders_model->add($datas);
+                if($orders_id){
+                    $this->success("请点击下面的‘确认订单’以便生效!",U("dinnerOk",array("orders_id"=>$orders_id)));
+                }else{
+                    $this->error("订单数据有误，请仔细审查订单数据");
+                }
             }
         }else{
-            $this->assign("orders_id",$orders_id);
+            $order_id=  isset($_GET["orders_id"])?$_GET["orders_id"]:"";
+            $row=$orders_model->findItem($order_id);
+            $this->assign("row",$row);
             $this->display("dinner_add");
         }
     }

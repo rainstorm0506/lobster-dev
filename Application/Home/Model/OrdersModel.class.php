@@ -26,7 +26,7 @@ class OrdersModel extends \Think\Model{
     }
     //根据订单ID，查询出“订货人”的 联系方式和联系地址
     public function findItem($orders_id=""){
-        $sql="select phone_number,address from orders where id={$orders_id}";
+        $sql="select * from orders where id={$orders_id}";
         $data=$this->query($sql);
         return $data[0];
     }
@@ -45,6 +45,12 @@ class OrdersModel extends \Think\Model{
     //根据电话号码查询出所有的订单信息
     public function getInfoByPhone($phone){
         $sql="select * from orders where phone_number={$phone}";
+        $res=$this->query($sql);
+        return $res;
+    }
+    //根据编号sn查询，是否有记录
+    public function getInfoBySn($sn=""){
+        $sql="select * from orders where sn={$sn}";
         $res=$this->query($sql);
         return $res;
     }

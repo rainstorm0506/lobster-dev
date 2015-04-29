@@ -28,8 +28,17 @@ DD_belatedPNG.fix('div , a , span');
 <div class="main">
     <div class="con fl" style="margin-top:30px;">
         <form id="form1" name="form1" class="fl f_2" method="post" action="<?php echo U('dinnerAdd');?>" onsubmit="return jQuery.formValidator.PageIsValid('1')" >
-            <!--隐藏域，用于存放“订单ID”--->
-            <input type="hidden" name='id' value="<?php echo ($orders_id); ?>">
+            <!--隐藏域，用于存放“订单ID,订单时间等”--->
+            <?php if(count($data) != 0): ?><input type="hidden" name='sn' value="<?php echo ($data["sn"]); ?>">
+                <input type="hidden" name='orders_time' value="<?php echo ($data["orders_time"]); ?>">
+                <input type="hidden" name='goods_id' value="<?php echo ($data["goods_id"]); ?>">
+                <input type="hidden" name='phone_number' value="<?php echo ($data["phone_number"]); ?>">
+            <?php else: ?>
+                <input type="hidden" name='sn' value="<?php echo ($row["sn"]); ?>">
+                <input type="hidden" name='orders_time' value="<?php echo ($row["orders_time"]); ?>">
+                <input type="hidden" name='goods_id' value="<?php echo ($row["goods_id"]); ?>">
+                <input type="hidden" name='phone_number' value="<?php echo ($row["phone_number"]); ?>"><?php endif; ?>
+            <!---用于存放订单页面提交过来的---->
             <h1>欢迎您，请填送餐地址:</span></h1>
             <dl>
                 <dt>送餐城市：</dt>

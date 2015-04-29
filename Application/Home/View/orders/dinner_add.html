@@ -28,8 +28,19 @@ DD_belatedPNG.fix('div , a , span');
 <div class="main">
     <div class="con fl" style="margin-top:30px;">
         <form id="form1" name="form1" class="fl f_2" method="post" action="{:U('dinnerAdd')}" onsubmit="return jQuery.formValidator.PageIsValid('1')" >
-            <!--隐藏域，用于存放“订单ID”--->
-            <input type="hidden" name='id' value="{$orders_id}">
+            <!--隐藏域，用于存放“订单ID,订单时间等”--->
+            <if condition="count($data) neq 0">
+                <input type="hidden" name='sn' value="{$data.sn}">
+                <input type="hidden" name='orders_time' value="{$data.orders_time}">
+                <input type="hidden" name='goods_id' value="{$data.goods_id}">
+                <input type="hidden" name='phone_number' value="{$data.phone_number}">
+            <else />
+                <input type="hidden" name='sn' value="{$row.sn}">
+                <input type="hidden" name='orders_time' value="{$row.orders_time}">
+                <input type="hidden" name='goods_id' value="{$row.goods_id}">
+                <input type="hidden" name='phone_number' value="{$row.phone_number}">
+            </if>
+            <!---用于存放订单页面提交过来的---->
             <h1>欢迎您，请填送餐地址:</span></h1>
             <dl>
                 <dt>送餐城市：</dt>
