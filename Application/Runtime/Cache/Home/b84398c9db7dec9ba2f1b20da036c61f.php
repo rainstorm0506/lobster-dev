@@ -62,7 +62,7 @@ DD_belatedPNG.fix('div , a , span');
 <script>
 $(document).ready(function(){
 	$.formValidator.initConfig({alertMessage:false});
-	$("#tell").formValidator({onshow:"由11位数字组成",onfocus:"由11位数字组成",oncorrect:"填写正确"}).InputValidator({min:11,max:11,onerror:"由11位数字组成"}).RegexValidator({regexp:"^[0-9]*$",onerror:"由11位数字组成"});
+	$("#tell").formValidator({onshow:"由11位数字组成",onfocus:"由11位数字组成",oncorrect:"填写正确"}).InputValidator({min:11,max:11,onerror:"由11位数字组成"}).RegexValidator({regexp:"^0{0,1}(13[0-9]|15[7-9]|153|156|18[0-9])[0-9]{8}$",onerror:"由11位数字组成"});
 
 });	
 
