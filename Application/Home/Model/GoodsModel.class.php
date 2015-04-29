@@ -27,7 +27,7 @@ class GoodsModel extends \Think\Model{
         if($start<=0){
             $start=0;   
         }
-        $page->setConfig('theme','%FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END% %HEADER%');
+        $page->setConfig('theme','%FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END%');
         $rows=$this->where($wheres)->limit($start,$page->listRows)->select();
         //改变数据库查询出来的记录的钩子方法
         $this->_goodsName($rows);
