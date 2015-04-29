@@ -37,10 +37,10 @@
             <!-- 主导航 -->
             <ul class="main-nav">
                 <li class="">
-                    <a href="/onethink/index.php?s=/admin/index/index.html">首页</a>
+                    <a href="<?php echo U('Admin/Admin/lists');?>">首页</a>
                 </li>
                 <li class="manager">你好，<em title="admin">admin</em></li>
-                <li><a href="/onethink/index.php?s=/admin/public/logout.html">安全退出</a></li>
+                <li><a href="<?php echo U('Admin/Admin/logout');?>">安全退出</a></li>
             </ul>
             <!-- /主导航 -->
 
@@ -49,7 +49,7 @@
                 <a href="javascript:;" class="user-entrance"><i class="icon-user"></i></a>
                 <ul class="nav-list user-menu hidden">
                     <li class="manager">你好，<em title="admin">admin</em></li>
-                    <li><a href="/onethink/index.php?s=/admin/public/logout.html">安全退出</a></li>
+                    <li><a href="">安全退出</a></li>
                 </ul>
             </div>
         </div>

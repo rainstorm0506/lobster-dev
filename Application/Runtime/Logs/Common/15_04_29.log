@@ -1,0 +1,40 @@
+[ 2015-04-29T09:27:11+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:Favicon
+NOTIC: [8] Array to string conversion F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 43 行.
+NOTIC: [8] Undefined variable: jumpUrl F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 49 行.
+NOTIC: [8] Use of undefined constant __APP__ - assumed '__APP__' F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Common\functions.php 第 974 行.
+NOTIC: [8] Use of undefined constant __APP__ - assumed '__APP__' F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Common\functions.php 第 974 行.
+
+[ 2015-04-29T09:27:18+08:00 ] 127.0.0.1 /Public/bootstrap/images/bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+ERR: 无法加载模块:Public
+NOTIC: [8] Array to string conversion F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 43 行.
+NOTIC: [8] Undefined variable: jumpUrl F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 49 行.
+NOTIC: [8] Use of undefined constant __APP__ - assumed '__APP__' F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Common\functions.php 第 974 行.
+NOTIC: [8] Use of undefined constant __APP__ - assumed '__APP__' F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Common\functions.php 第 974 行.
+
+[ 2015-04-29T09:27:18+08:00 ] 127.0.0.1 /Public/bootstrap/images/blue_color/bg_icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+ERR: 无法加载模块:Public
+NOTIC: [8] Array to string conversion F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 43 行.
+NOTIC: [8] Undefined variable: jumpUrl F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 49 行.
+NOTIC: [8] Use of undefined constant __APP__ - assumed '__APP__' F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Common\functions.php 第 974 行.
+NOTIC: [8] Use of undefined constant __APP__ - assumed '__APP__' F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Common\functions.php 第 974 行.
+
+[ 2015-04-29T09:27:18+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+ERR: 无法加载模块:Favicon
+NOTIC: [8] Array to string conversion F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 43 行.
+NOTIC: [8] Undefined variable: jumpUrl F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Tpl\think_exception.tpl 第 49 行.
+NOTIC: [8] Use of undefined constant __APP__ - assumed '__APP__' F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Common\functions.php 第 974 行.
+NOTIC: [8] Use of undefined constant __APP__ - assumed '__APP__' F:\phpEnve\Apache\htdocs\lobster\ThinkPHP\Common\functions.php 第 974 行.
+
