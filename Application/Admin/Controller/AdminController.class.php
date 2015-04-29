@@ -106,7 +106,8 @@ class AdminController extends Controller{
     //订单列表
     public function orders(){
         $ordersModel=D("Orders");
-        $res=$ordersModel->page();
+        $condition=array("confirm_orders"=>1);
+        $res=$ordersModel->page($condition);
 
         $this->assign($res);
         $this->display();
